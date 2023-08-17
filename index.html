@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSI-VIVA TECH | Home</title>
+  <link rel="icon" type="image/x-icon" href="/assets/css/images/csilogo.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
+    integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    #carouselHero .carousel-item img {
+      object-fit: cover;
+      object-position: center;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    #carouselHero .carousel-item:before {
+      content: "";
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body class="is-preload">
+  <!--Navbar -->
+
+  <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/css/images/csilogo.png" width="60" height="60" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="navbar-nav fs-5">
+          <a style="color: #183183" class="nav-link fw-bold" href="index.html"><u>Home</u></a>
+          <a style="color: #183183" class="nav-link" href="events.html">Events</a>
+          <a style="color: #183183" class="nav-link" href="current.html">Committee</a>
+          <a style="color: #183183" class="nav-link" href="gallery.html">Gallery</a>
+          <a style="color: #183183" class="nav-link" href="contact.html">Contact Us</a>
+          <a style="color: #183183" class="nav-link" href="http://www.viva-technology.org/New/Tech-next/">Tech Next</a>
+          <a style="color: #183183" class="nav-link" href="https://techchase2022.github.io/registration/">Tech Chase</a>
+
+        </div>
+      </div>
+  </nav>
+
+  <!-- For Future Reference : Do Not Modify Carelessly, It Breaks.  -->
+
+  <div id="carouselHero" class="carousel slide" data-bs-ride="carousel" data-bs-speeed="2000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Scroll/5.jpg" class="d-block w-100" alt="Image Description">
+        <div class="carousel-caption ">
+          <h5>Soft Skills Presentation</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Scroll/1.jpg" class="d-block w-100" alt="POW Logo">
+        <div class="carousel-caption ">
+          <h5>Tech Chase</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Scroll/2.jpg" class="d-block w-100" alt="Image Description">
+        <div class="carousel-caption ">
+          <h5>Industrial Visit</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Scroll/3.jpg" class="d-block w-100" alt="Image Description">
+        <div class="carousel-caption ">
+          <h5>Poster Making</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Scroll/4.jpg" class="d-block w-100" alt="Image Description">
+        <div class="carousel-caption ">
+          <h5>Industrial Visit</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Added Top Pixels To Center The Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev"
+      style="top: 10rem; width: 10%;">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next"
+      style="top: 10rem; width: 10%;">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section id="header">
+    <div style="font-family: 'Montserrat', sans-serif;" class="inner">
+      <span class="icon solid major fa-cloud"></span>
+      <h1>
+        Welcome To<br />
+        <strong>CSI VIVA-TECH</strong>
+      </h1>
+
+      <ul class="actions special">
+        <li><a href="#one" class="button scrolly">Discover</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="one" class="main style1">
+    <div class="container">
+      <div class="row gtr-150">
+        <div class="col-6 col-12-medium">
+          <header class="major">
+            <h2 style="font-family: 'Montserrat', sans-serif;"><strong> ABOUT </strong></h2>
+          </header>
+          <p style="text-align: justify; font-family: 'Montserrat', sans-serif;">
+            CSI-VIVA TECH is the student branch of the Computer Society of
+            India (CSI) at VIVA Institute of Technology, Palghar. The Computer
+            Society of India is a non-profit professional meet to exchange
+            views, information, to learn and share ideas. We offer a range of
+            services and networking opportunities through workshop, seminars
+            and guest lectures for the development of students. We even
+            organise technical fest "TechChase" in collaboration with other
+            technical committee.The other major events organized by CSI are
+            "Technical Paper Presentation" and "Imperia Project Competition".
+            In Technical Paper Presentation, the students were given a chance
+            to present their paper and get their paper to be published in
+            VIVA's TECHNEXT Magzine. Also, Imperia gives a platform to the
+            students to present their ideas and showcase their projects to the
+            world. Our aim is to provide a training ground for computer
+            enthusiasts of tomorrow.
+            <br /><br />
+            The mission of CSI-VIVA TECH is to facilitate research, knowledge
+            sharing, learning & career enhancement, while simultaneously
+            inspiring and nurturing new talent and innovations. We aim to
+            provide the students of CSI-VIVA TECH, across all our departments,
+            the best opportunities to acquire knowledge and gain experience in
+            varied fields and thus help them become better professionals.
+            Being closely associated with students, the Society has developed
+            a well-established network of "Student Branches" all across the
+            country. The activities conducted for the students associated with
+            the Society include lecture meetings, seminars, conferences,
+            training programmes, programming contests and practical visits to
+            installations.
+          </p>
+        </div>
+        <div class="col-6 col-12-medium imp-medium">
+          <span class="image fit"><img style="margin-top: 5%; margin-left: 11%; width: 80%"
+              src="assets/css/images/csilogo.png" alt="" /></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Two -->
+  <section id="two" class="main style2">
+    <div class="container text-center" style="font-family: 'Montserrat', sans-serif;">
+      <header class="major">
+        <h2 style="font-family: 'Montserrat', sans-serif;">THE EVENTS WE ORGANIZE</h2>
+      </header>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <div>
+            <div>
+              <span class="icon solid  major fa-desktop"></span>
+              <h3>Workshops</h3>
+              <p style="text-align: justify;">Experience theory come to life! Our interactive workshops bridge the gap
+                between theoretical concepts and real-world applications. Get hands-on experience and unlock your
+                creativity by developing practical solutions.</p>
+            </div>
+            <div>
+              <span class="icon solid  major fa-users"></span>
+              <h3>Seminars</h3>
+              <p style="text-align: justify;">Stay up-to-date with the latest technologies through our informative
+                seminars. Designed to keep students informed about market trends, our seminars provide valuable insights
+                into cutting-edge technologies and their applications.</p>
+            </div>
+            <div>
+              <span class="icon solid  major fa-calendar"></span>
+              <h3>Events</h3>
+              <p style="text-align: justify;">Technology is even better when it brings people together. Join our
+                exciting events designed to foster technical growth and create a vibrant community of like-minded
+                individuals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <span class="icon solid major fa-book"></span>
+            <h3>Paper Presentation</h3>
+            <p style="text-align: justify;">Sharpen your presentation skills with our technical paper presentations.
+              Showcase your ideas, research, and innovation while mastering the art of effective communication—a key
+              aspect valued by industries.</p>
+          </div>
+          <div>
+            <span class="icon solid  major fa-industry"></span>
+            <h3>Industrial Visit</h3>
+            <p style="text-align: justify;">See it to believe it! Our industrial visits offer students an up-close look
+              at the inner workings of industries. Gain real-world exposure, witness processes in action, and understand
+              the dynamics of various sectors.</p>
+          </div>
+          <div>
+            <span class="icon solid  major fa-user"></span>
+            <h3>Guest Lectures</h3>
+            <p style="text-align: justify;">Learn from industry experts! Our guest lectures feature professionals who
+              share invaluable insights about industry culture and evolving requirements. Get inspired and chart your
+              path to success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Three -->
+  <section id="three" class="main">
+    <div style="font-family: 'Montserrat', sans-serif; " class="container">
+      <header class="major text-center">
+        <h2>ALL THE WAY FROM FACULTY</h2>
+      </header>
+
+      <div class="row" style="display: flex; justify-content: center;">
+        <div class="col-md-4 mb-3 mb-sm-0">
+          <div class="card w-100 text-center">
+            <img src="images/Akshata_mam.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Prof. Akshata Raut</h5>
+              <p class="card-text">CSI In-Charge <br>
+                Computer Engineering Department</p>
+              <p class="text-muted">"If you enjoy sharing things, even to an extremely small audience, keep it up as
+                long as you like doing it."</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-sm-0">
+          <div class="card w-100 text-center mr-2">
+            <img src="images/HOD_Ma_am.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Dr. Ashwini Save</h5>
+              <p class="card-text">Student Branch Councilor <br>
+                HOD Computer Engineering Department</p>
+              <p class="text-muted">"Going out of your comfort zone will greatly improve your <br> confidence"</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+
+    <ul class="icons">
+      <li>
+        <a style="color: white" href="https://www.facebook.com/compsvivatech/"
+          class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a>
+      </li>
+      <li>
+        <a style="color: white" href="https://instagram.com/comps_viva?utm_medium=copy_link"
+          class="icon brands alt fa-instagram"><span class="label">Instagram</span></a>
+      </li>
+      <li>
+        <a style="color: white" href="https://www.youtube.com/channel/UCz69jN4Cxd-TKrozP-DkzUA"
+          class="icon brands alt fa-youtube"><span class="label">YouTube</span></a>
+      </li>
+
+      <li>
+        <a style="color: white" href="mailto:csi.comps@viva-technology.org" class="icon solid alt fa-envelope"><span
+            class="label">Email</span></a>
+      </li>
+    </ul>
+    <ul style="font-family: 'Montserrat', sans-serif;" class="copyright">
+      <li>&copy; All Rights Reserved</li>
+      <li>Designed by CSI-VIVA TECH Team</li>
+    </ul>
+  </section>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
